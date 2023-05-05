@@ -1,0 +1,13 @@
+a)La commande "git pull" récupère les modifications du dépôt distant, mais les fusionne autpmatiquement avec votre branche locale.
+Tandis que  la commande "git fetch" récupère  les modificatins effectuées dans le dépôt  distant et les enregistre localement, 
+mais ne fusionne pas les modifications avec votre branche
+
+b) Pour annuler les modifications locales non validées dans Git, on peut utiliser la commande "git stash" 
+pour enregistrer nos modifications dans une pile temporaire, 
+puis utiliser la commande  "git stash drop" pour supprimer la dernière entrée de la pile.
+
+c)Pour supprimer une branche distante dans Git, on peut utiliser la commande "git push" avec l'option "--delete" 
+suivie du nom de la branche que vous souhaitez supprimer.
+
+d)Pour voir l'historique des modifications pour un fichier spécifique dans Git, on peut utiliser 
+la commande "git log" avec l'option "--follow" suivie du nom du fichier que vous souhaitez suivre.
